@@ -1,0 +1,417 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.section1 {
+    height: 180vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    border-bottom: white solid 5px;
+}
+
+.navbar {
+    height: 15%;
+    width: 100%;
+    background-color: rgb(106, 106, 106);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+     border-bottom: white solid 5px;
+}
+
+.menu {
+    height: 90%;
+    width: 90%;
+    background-color: rosybrown;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.icon {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon i {
+    font-size: 28px;
+}
+
+.bar {
+    height: 50%;
+    width: 30%;
+    background-color:#525252;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.bar {
+    color: white;
+    text-decoration: none;
+}
+
+.bar h3 {
+    font-size: 60px;
+}
+.cv {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cv a:first-child button {
+    height: 40px;
+    width: 120px;
+    border:rgb(255, 212, 59) solid 2px;
+    background-color: #363636;
+    color: white;
+}
+
+.cv a button{
+    height: 40px;
+    width: 80px;
+    border-radius: 7px;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 212, 59);
+}
+
+.main {
+    height: 85%;
+    width: 100%;
+    background-color: rgb(50, 95, 96);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.first {
+    height: 70%;
+    width: 98%;
+    background-color: rgb(127, 127, 33);
+    position: absolute;
+    top: 27%;
+    left: 1%;
+    border-radius: 60px 0px 60px 0px;
+}
+
+.first video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 60px 0px 60px 0px;
+}
+
+.fdetail {
+     height: 23%;
+    width: 90%;
+    background-color: rgb(86, 8, 8);
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    border: dotted white 2px ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    padding-left: 20px;
+}
+.fdetail h3 {
+    font-size: 29px;
+}
+
+.fdetail a h4 {
+    color: rgb(0, 65, 206);
+}
+
+.section2 {
+    height: 150vh;
+    width: 100%;
+    background-color:  rgb(50, 95, 96);
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+     border-bottom: white solid 5px;
+}
+
+.second {
+    height: 70%;
+    width: 98%;
+    background-color: rgb(127, 127, 33);
+    position: absolute;
+    top: 27%;
+    left: 1%;
+    border-radius: 60px 0px 60px 0px;
+}
+
+.second video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 60px 0px 60px 0px;
+}
+
+.sdetail {
+    height: 23%;
+    width: 90%;
+    background-color: rgb(86, 8, 8);
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    border: dotted white 2px ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    padding-left: 20px;
+}
+.sdetail h3 {
+    font-size: 29px;
+}
+
+.sdetail a h4 {
+    color: rgb(0, 65, 206);
+}
+
+.section3 {
+    height: 150vh;
+    width: 100%;
+    background-color: rgb(50, 95, 96);
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+     border-bottom: white solid 5px;
+}
+
+.third {
+    height: 70%;
+    width: 98%;
+    background-color: rgb(127, 127, 33);
+    position: absolute;
+    top: 27%;
+    left: 1%;
+    border-radius: 60px 0px 60px 0px;
+}
+
+.third video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 60px 0px 60px 0px;
+}
+
+.tdetail {
+    height: 23%;
+    width: 90%;
+    background-color: rgb(86, 8, 8);
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    border: dotted white 2px ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    padding-left: 20px;
+}
+
+.tdetail h3 {
+    font-size: 29px;
+}
+
+.tdetail a h4 {
+    color: rgb(0, 65, 206);
+}
+
+.section4 {
+    height: 150vh;
+    width: 100%;
+     background-color: rgb(50, 95, 96);
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+     border-bottom: white solid 5px;
+}
+
+.fourth {
+    height: 70%;
+    width: 98%;
+    background-color: rgb(30, 32, 126);
+    position: absolute;
+    top: 27%;
+    left: 1%;
+    border-radius: 60px 0px 60px 0px;
+}
+
+.fourth video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 60px 0px 60px 0px;
+}
+
+.fodetail {
+    height: 23%;
+    width: 90%;
+    background-color: rgb(86, 8, 8);
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    border: dotted white 2px ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    padding-left: 20px;
+}
+
+.fodetail h3 {
+    font-size: 29px;
+}
+
+.fodetail a h4 {
+    color: rgb(0, 65, 206);
+}
+
+.section5 {
+    height: 150vh;
+    width: 100%;
+     background-color: rgb(50, 95, 96);
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+     border-bottom: white solid 5px;
+}
+
+.five {
+    height: 70%;
+    width: 98%;
+    background-color: rgb(127, 127, 33);
+    position: absolute;
+    top: 27%;
+    left: 1%;
+    border-radius: 60px 0px 60px 0px;
+}
+
+.five video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 60px 0px 60px 0px;
+}
+
+.fidetail {
+    height: 23%;
+    width: 90%;
+    background-color: rgb(86, 8, 8);
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    border: dotted white 2px ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    padding-left: 20px;
+}
+
+.fidetail h3 {
+    font-size: 29px;
+}
+
+.fidetail a h4 {
+    color: rgb(0, 65, 206);
+}
+
+.section6 {
+    height: 150vh;
+    width: 100%;
+     background-color: rgb(50, 95, 96);
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+     border-bottom: white solid 5px;
+}
+
+.six {
+    height: 70%;
+    width: 98%;
+    background-color: rgb(127, 127, 33);
+    position: absolute;
+    top: 27%;
+    left: 1%;
+    border-radius: 60px 0px 60px 0px;
+}
+
+.six video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 60px 0px 60px 0px;
+}
+
+.sixdetail {
+    height: 23%;
+    width: 90%;
+    background-color: rgb(86, 8, 8);
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    border: dotted white 2px ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    padding-left: 20px;
+}
+
+.sixdetail h3 {
+    font-size: 29px;
+}
+
+.sixdetail a h4 {
+    color: rgb(0, 65, 206);
+}
+
+
+
