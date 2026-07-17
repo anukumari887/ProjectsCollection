@@ -520,5 +520,58 @@ html, body {
     color: rgb(0, 65, 206);
 }
 
+.section9 {
+    height: 150vh;
+    width: 100%;
+     background-color: rgb(50, 95, 96);
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+     border-bottom: white solid 5px;
+}
+
+.nine {
+    height: 70%;
+    width: 98%;
+    background-color: rgb(127, 127, 33);
+    position: absolute;
+    top: 27%;
+    left: 1%;
+    border-radius: 60px 0px 60px 0px;
+}
+
+.nine video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 60px 0px 60px 0px;
+}
+
+.ninedetail {
+    height: 23%;
+    width: 90%;
+    background-color: rgb(86, 8, 8);
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    border: dotted white 2px ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    padding-left: 20px;
+}
+
+.ninedetail h3 {
+    font-size: 29px;
+}
+
+.ninedetail a h4 {
+    color: rgb(0, 65, 206);
+}
+
 
 
